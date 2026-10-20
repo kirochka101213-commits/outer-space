@@ -28,6 +28,51 @@ header {
   color: aliceblue;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  }
+  .logo {
+    height: 100px;
+    width: 150px;
+  }
+  .nav-link {
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-li {
+    width: 100px;
+  }
+  .nav {
+    width: 400px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 768px;
+  }
+}
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.173)), url(../img/hero-back.webp);
   background-size: cover;
@@ -57,6 +102,36 @@ header {
   text-align: center;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-title {
+    margin: 0;
+    color: aliceblue;
+    width: 400px;
+    font-size: 32px;
+  }
+  .hero-text {
+    color: aliceblue;
+    font-size: 20px;
+    width: 500px;
+  }
+  .hero-butn {
+    background: none;
+    color: aliceblue;
+    border: 2.5px solid aliceblue;
+    border-radius: 14px;
+    font-size: 15px;
+    height: 40px;
+    text-align: center;
+  }
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.173)), url(../img/hero-back.webp);
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid aliceblue;
+    width: 768px;
+    height: 300px;
+  }
+}
 .astronauts {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -81,6 +156,39 @@ header {
   font-size: 44px;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .astr-card img {
+    width: 240px;
+    height: 300px;
+    margin-top: 0;
+  }
+  .astronauts1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .astronauts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .astronauts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    padding: 50px;
+    gap: 40px;
+  }
+  .astro-title {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+}
 .info-cont1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.173)), url(../img/black-hole.webp);
   background-size: cover;
@@ -145,4 +253,4 @@ header {
   padding-left: 200px;
   margin-top: 40px;
   text-align: center;
-}
+}/*# sourceMappingURL=main.css.map */

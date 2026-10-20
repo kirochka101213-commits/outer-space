@@ -23,3 +23,39 @@
     height: 50px;
     text-align: center;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.hero-title{
+    margin: 0;
+    color: aliceblue;
+    width: 400px;
+    font-size: 32px;
+}
+
+.hero-text{
+    color: aliceblue;
+    font-size: 20px;
+    width: 500px;
+}
+
+.hero-butn{
+    background: none;
+    color: aliceblue;
+    border: 2.5px solid aliceblue;
+    border-radius: 14px;
+    font-size: 15px;
+    height: 40px;
+    text-align: center;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.173)), url(../img/hero-back.webp);
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid aliceblue;
+    width: 768px;
+    height: 300px;
+}
+
+
+}

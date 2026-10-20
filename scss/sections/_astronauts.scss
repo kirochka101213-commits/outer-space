@@ -18,3 +18,41 @@
     margin-top: 60px;
     font-size: 44px;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .astr-card img {
+        width: 240px;
+        height: 300px;
+        margin-top: 0;
+    }
+
+    .astronauts1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .astronauts2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .astronauts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    padding: 50px;
+    gap: 40px;
+}
+
+.astro-title{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+}
